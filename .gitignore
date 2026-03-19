@@ -1,0 +1,39 @@
+nano ~/ai-os/.gitignore
+```
+```
+# Kernel build artifacts
+kernel/*.o
+kernel/*.ko
+kernel/*.mod
+kernel/*.mod.c
+kernel/*.mod.o
+kernel/.*.cmd
+kernel/Module.symvers
+kernel/modules.order
+kernel/.tmp_versions/
+kernel/.module-common.o
+
+# Python
+python/__pycache__/
+python/aios/__pycache__/
+python/*.egg-info/
+python/aios.egg-info/
+__pycache__/
+*.pyc
+
+# Build outputs
+tools/ai_monitor
+tools/memory_hog
+tools/training_sim
+tools/oom_logger
+tools/auto_protect
+tools/dashboard
+tools/benchmark
+
+# Logs and checkpoints
+*.log
+/tmp/ai_checkpoints/
+oom_events.log
+
+# VS Code
+.vscode/
