@@ -167,6 +167,11 @@ sudo ./tools/benchmark
 sudo bash tools/stress_test.sh
 ```
 
+### Python library only
+```bash
+pip install aios-guard
+```
+
 ---
 
 ## Project Structure
