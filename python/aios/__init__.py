@@ -1,3 +1,5 @@
+__version__ = "1.0.0"
+__name__ = "aios-guard"
 """
 aios — AI-OS Python Package
 Kernel-level OOM protection for AI training jobs
