@@ -265,15 +265,6 @@ Removes all kernel modules, systemd service, proc entries, and Python package cl
 - GPU support requires real NVIDIA hardware (VM shows placeholder)
 - Tested on x86_64 — ARM/edge port planned
 
-## Roadmap
-
-- [ ] Edge deployment — Raspberry Pi / Jetson Nano (ARM)
-- [ ] GPU deep integration — CUDA memory management
-- [ ] ML-based process detection — replace name heuristic
-- [ ] Checkpoint-deferred killing — wait for safe boundary
-- [ ] Debian package — `apt install ai-os-guard`
-- [ ] Automated kernel version compatibility
-
 ---
 
 ## License
